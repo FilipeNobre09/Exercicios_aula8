@@ -17,7 +17,7 @@ public class Produto {
         return quantidade_estoque;
      }
      public double calcular_valor_total(){
-        return this.preco * this.quantidade;
+        return this.preco * this.quantidade_estoque;
      }
      public void exibir(){
         System.out.println("Produto: "+ nome);
